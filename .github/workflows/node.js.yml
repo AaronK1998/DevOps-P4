@@ -13,7 +13,6 @@ on:
 
 jobs:
   build:
-  example_matrix:
     strategy:
       matrix:
         os: [windows-latest, ubuntu-latest]

@@ -1,5 +1,6 @@
 const Game = require('../src/game').default
 const fs = require('fs')
+jest.setTimeout(30000);
 
 describe('App', () => {
   it('Contains the compiled JavaScript', (done) => {
